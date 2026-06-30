@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0175/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0175/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清天關三圖經
+  date: '2015-08-29 02:59:34.162179'
+  source:
+    repository: kanripo
+    path: KR5g0175
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0175_000-HFL.yaml, hash: 'sha256:c3a0cdc15ed5189658f6437fb7d2783bceecb0cf9d4c37cdfc99144c3defbe4e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0175_000-HFL.markers.yaml, hash: 'sha256:152baf53c556014328d75989ad59dabc77bc250d6488c8c60227a908bd45b272'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0175_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5791
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f72b310c12bd98ffcd2f315c51624e847812130dbb5968b61bb99083a0de6a42
